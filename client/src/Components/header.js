@@ -16,24 +16,24 @@ const Header = () =>{
       <AppBar position="static">
   <Toolbar variant="dense">
     <Typography align ="left" variant="h4" color="inherit" className={classes.title}>
-      Interview Scheduler
+      Interview Arena
     </Typography>
     
     <div > 
      
      <Button color="inherit"> 
       <Link to="/" style={{ textDecoration: "none", color:'white', width: "100%" }} >
-                   Dashboard
+                   Home
        </Link> 
      </Button>
      <Button color="inherit"> 
       <Link to="/interviews" style={{ textDecoration: "none", color:'white', width: "100%" }} >
-                   View Interviews
+                   Show Interviews
        </Link>
      </Button>
      <Button color="inherit"> 
        <Link to="/update" style={{ textDecoration: "none", color:'white', width: "100%" }} >
-                   Update Interviews
+                   Edit Interviews
        </Link>
        </Button>
     </div>
